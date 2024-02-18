@@ -1,0 +1,1730 @@
+"use strict";
+(self["webpackChunkmyfirstproject"] = self["webpackChunkmyfirstproject"] || []).push([["main"],{
+
+/***/ 5041:
+/*!**********************************!*\
+  !*** ./src/app/app.component.ts ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "AppComponent": () => (/* binding */ AppComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 2560);
+/* harmony import */ var _tabs_tabs_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./tabs/tabs.component */ 3957);
+
+
+class AppComponent {
+    constructor() {
+        this.title = 'myfirstproject';
+    }
+}
+AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
+AppComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 3, vars: 0, consts: [[1, "bg-primary", "text-white", "text-center", "p-3", "my-2"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "h2", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, " Data Binding In Angular\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "app-tabs");
+    } }, dependencies: [_tabs_tabs_component__WEBPACK_IMPORTED_MODULE_0__.TabsComponent], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuY29tcG9uZW50LnNjc3MifQ== */"] });
+
+
+/***/ }),
+
+/***/ 6747:
+/*!*******************************!*\
+  !*** ./src/app/app.module.ts ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "AppModule": () => (/* binding */ AppModule)
+/* harmony export */ });
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/platform-browser */ 4497);
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app.component */ 5041);
+/* harmony import */ var _components_product_product_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/product/product.component */ 3995);
+/* harmony import */ var _components_products_products_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/products/products.component */ 697);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/forms */ 2508);
+/* harmony import */ var _skillsets_skillsets_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./skillsets/skillsets.component */ 7194);
+/* harmony import */ var _tabs_tabs_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./tabs/tabs.component */ 3957);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 2560);
+
+
+
+
+
+
+
+
+class AppModule {
+}
+AppModule.ɵfac = function AppModule_Factory(t) { return new (t || AppModule)(); };
+AppModule.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_0__.AppComponent] });
+AppModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineInjector"]({ imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_6__.BrowserModule,
+        _angular_forms__WEBPACK_IMPORTED_MODULE_7__.FormsModule] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_0__.AppComponent,
+        _components_product_product_component__WEBPACK_IMPORTED_MODULE_1__.ProductComponent,
+        _components_products_products_component__WEBPACK_IMPORTED_MODULE_2__.ProductsComponent,
+        _skillsets_skillsets_component__WEBPACK_IMPORTED_MODULE_3__.SkillsetsComponent,
+        _tabs_tabs_component__WEBPACK_IMPORTED_MODULE_4__.TabsComponent], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_6__.BrowserModule,
+        _angular_forms__WEBPACK_IMPORTED_MODULE_7__.FormsModule] }); })();
+
+
+/***/ }),
+
+/***/ 2766:
+/*!*******************************************!*\
+  !*** ./src/app/components/const/const.ts ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "todopost": () => (/* binding */ todopost)
+/* harmony export */ });
+let todopost = [
+    {
+        "userId": 1,
+        "id": 1,
+        "title": "delectus aut autem",
+        "completed": false
+    },
+    {
+        "userId": 1,
+        "id": 2,
+        "title": "quis ut nam facilis et officia qui",
+        "completed": false
+    },
+    {
+        "userId": 1,
+        "id": 3,
+        "title": "fugiat veniam minus",
+        "completed": false
+    },
+    {
+        "userId": 1,
+        "id": 4,
+        "title": "et porro tempora",
+        "completed": true
+    },
+    {
+        "userId": 1,
+        "id": 5,
+        "title": "laboriosam mollitia et enim quasi adipisci quia provident illum",
+        "completed": false
+    },
+    {
+        "userId": 1,
+        "id": 6,
+        "title": "qui ullam ratione quibusdam voluptatem quia omnis",
+        "completed": false
+    },
+    {
+        "userId": 1,
+        "id": 7,
+        "title": "illo expedita consequatur quia in",
+        "completed": false
+    },
+    {
+        "userId": 1,
+        "id": 8,
+        "title": "quo adipisci enim quam ut ab",
+        "completed": true
+    },
+    {
+        "userId": 1,
+        "id": 9,
+        "title": "molestiae perspiciatis ipsa",
+        "completed": false
+    },
+    {
+        "userId": 1,
+        "id": 10,
+        "title": "illo est ratione doloremque quia maiores aut",
+        "completed": true
+    },
+    {
+        "userId": 1,
+        "id": 11,
+        "title": "vero rerum temporibus dolor",
+        "completed": true
+    },
+    {
+        "userId": 1,
+        "id": 12,
+        "title": "ipsa repellendus fugit nisi",
+        "completed": true
+    },
+    {
+        "userId": 1,
+        "id": 13,
+        "title": "et doloremque nulla",
+        "completed": false
+    },
+    {
+        "userId": 1,
+        "id": 14,
+        "title": "repellendus sunt dolores architecto voluptatum",
+        "completed": true
+    },
+    {
+        "userId": 1,
+        "id": 15,
+        "title": "ab voluptatum amet voluptas",
+        "completed": true
+    },
+    {
+        "userId": 1,
+        "id": 16,
+        "title": "accusamus eos facilis sint et aut voluptatem",
+        "completed": true
+    },
+    {
+        "userId": 1,
+        "id": 17,
+        "title": "quo laboriosam deleniti aut qui",
+        "completed": true
+    },
+    {
+        "userId": 1,
+        "id": 18,
+        "title": "dolorum est consequatur ea mollitia in culpa",
+        "completed": false
+    },
+    {
+        "userId": 1,
+        "id": 19,
+        "title": "molestiae ipsa aut voluptatibus pariatur dolor nihil",
+        "completed": true
+    },
+    {
+        "userId": 1,
+        "id": 20,
+        "title": "ullam nobis libero sapiente ad optio sint",
+        "completed": true
+    },
+    {
+        "userId": 2,
+        "id": 21,
+        "title": "suscipit repellat esse quibusdam voluptatem incidunt",
+        "completed": false
+    },
+    {
+        "userId": 2,
+        "id": 22,
+        "title": "distinctio vitae autem nihil ut molestias quo",
+        "completed": true
+    },
+    {
+        "userId": 2,
+        "id": 23,
+        "title": "et itaque necessitatibus maxime molestiae qui quas velit",
+        "completed": false
+    },
+    {
+        "userId": 2,
+        "id": 24,
+        "title": "adipisci non ad dicta qui amet quaerat doloribus ea",
+        "completed": false
+    },
+    {
+        "userId": 2,
+        "id": 25,
+        "title": "voluptas quo tenetur perspiciatis explicabo natus",
+        "completed": true
+    },
+    {
+        "userId": 2,
+        "id": 26,
+        "title": "aliquam aut quasi",
+        "completed": true
+    },
+    {
+        "userId": 2,
+        "id": 27,
+        "title": "veritatis pariatur delectus",
+        "completed": true
+    },
+    {
+        "userId": 2,
+        "id": 28,
+        "title": "nesciunt totam sit blanditiis sit",
+        "completed": false
+    },
+    {
+        "userId": 2,
+        "id": 29,
+        "title": "laborum aut in quam",
+        "completed": false
+    },
+    {
+        "userId": 2,
+        "id": 30,
+        "title": "nemo perspiciatis repellat ut dolor libero commodi blanditiis omnis",
+        "completed": true
+    },
+    {
+        "userId": 2,
+        "id": 31,
+        "title": "repudiandae totam in est sint facere fuga",
+        "completed": false
+    },
+    {
+        "userId": 2,
+        "id": 32,
+        "title": "earum doloribus ea doloremque quis",
+        "completed": false
+    },
+    {
+        "userId": 2,
+        "id": 33,
+        "title": "sint sit aut vero",
+        "completed": false
+    },
+    {
+        "userId": 2,
+        "id": 34,
+        "title": "porro aut necessitatibus eaque distinctio",
+        "completed": false
+    },
+    {
+        "userId": 2,
+        "id": 35,
+        "title": "repellendus veritatis molestias dicta incidunt",
+        "completed": true
+    },
+    {
+        "userId": 2,
+        "id": 36,
+        "title": "excepturi deleniti adipisci voluptatem et neque optio illum ad",
+        "completed": true
+    },
+    {
+        "userId": 2,
+        "id": 37,
+        "title": "sunt cum tempora",
+        "completed": false
+    },
+    {
+        "userId": 2,
+        "id": 38,
+        "title": "totam quia non",
+        "completed": false
+    },
+    {
+        "userId": 2,
+        "id": 39,
+        "title": "doloremque quibusdam asperiores libero corrupti illum qui omnis",
+        "completed": false
+    },
+    {
+        "userId": 2,
+        "id": 40,
+        "title": "totam atque quo nesciunt",
+        "completed": true
+    },
+    {
+        "userId": 3,
+        "id": 41,
+        "title": "aliquid amet impedit consequatur aspernatur placeat eaque fugiat suscipit",
+        "completed": false
+    },
+    {
+        "userId": 3,
+        "id": 42,
+        "title": "rerum perferendis error quia ut eveniet",
+        "completed": false
+    },
+    {
+        "userId": 3,
+        "id": 43,
+        "title": "tempore ut sint quis recusandae",
+        "completed": true
+    },
+    {
+        "userId": 3,
+        "id": 44,
+        "title": "cum debitis quis accusamus doloremque ipsa natus sapiente omnis",
+        "completed": true
+    },
+    {
+        "userId": 3,
+        "id": 45,
+        "title": "velit soluta adipisci molestias reiciendis harum",
+        "completed": false
+    },
+    {
+        "userId": 3,
+        "id": 46,
+        "title": "vel voluptatem repellat nihil placeat corporis",
+        "completed": false
+    },
+    {
+        "userId": 3,
+        "id": 47,
+        "title": "nam qui rerum fugiat accusamus",
+        "completed": false
+    },
+    {
+        "userId": 3,
+        "id": 48,
+        "title": "sit reprehenderit omnis quia",
+        "completed": false
+    },
+    {
+        "userId": 3,
+        "id": 49,
+        "title": "ut necessitatibus aut maiores debitis officia blanditiis velit et",
+        "completed": false
+    },
+    {
+        "userId": 3,
+        "id": 50,
+        "title": "cupiditate necessitatibus ullam aut quis dolor voluptate",
+        "completed": true
+    },
+    {
+        "userId": 3,
+        "id": 51,
+        "title": "distinctio exercitationem ab doloribus",
+        "completed": false
+    },
+    {
+        "userId": 3,
+        "id": 52,
+        "title": "nesciunt dolorum quis recusandae ad pariatur ratione",
+        "completed": false
+    },
+    {
+        "userId": 3,
+        "id": 53,
+        "title": "qui labore est occaecati recusandae aliquid quam",
+        "completed": false
+    },
+    {
+        "userId": 3,
+        "id": 54,
+        "title": "quis et est ut voluptate quam dolor",
+        "completed": true
+    },
+    {
+        "userId": 3,
+        "id": 55,
+        "title": "voluptatum omnis minima qui occaecati provident nulla voluptatem ratione",
+        "completed": true
+    },
+    {
+        "userId": 3,
+        "id": 56,
+        "title": "deleniti ea temporibus enim",
+        "completed": true
+    },
+    {
+        "userId": 3,
+        "id": 57,
+        "title": "pariatur et magnam ea doloribus similique voluptatem rerum quia",
+        "completed": false
+    },
+    {
+        "userId": 3,
+        "id": 58,
+        "title": "est dicta totam qui explicabo doloribus qui dignissimos",
+        "completed": false
+    },
+    {
+        "userId": 3,
+        "id": 59,
+        "title": "perspiciatis velit id laborum placeat iusto et aliquam odio",
+        "completed": false
+    },
+    {
+        "userId": 3,
+        "id": 60,
+        "title": "et sequi qui architecto ut adipisci",
+        "completed": true
+    },
+    {
+        "userId": 4,
+        "id": 61,
+        "title": "odit optio omnis qui sunt",
+        "completed": true
+    },
+    {
+        "userId": 4,
+        "id": 62,
+        "title": "et placeat et tempore aspernatur sint numquam",
+        "completed": false
+    },
+    {
+        "userId": 4,
+        "id": 63,
+        "title": "doloremque aut dolores quidem fuga qui nulla",
+        "completed": true
+    },
+    {
+        "userId": 4,
+        "id": 64,
+        "title": "voluptas consequatur qui ut quia magnam nemo esse",
+        "completed": false
+    },
+    {
+        "userId": 4,
+        "id": 65,
+        "title": "fugiat pariatur ratione ut asperiores necessitatibus magni",
+        "completed": false
+    },
+    {
+        "userId": 4,
+        "id": 66,
+        "title": "rerum eum molestias autem voluptatum sit optio",
+        "completed": false
+    },
+    {
+        "userId": 4,
+        "id": 67,
+        "title": "quia voluptatibus voluptatem quos similique maiores repellat",
+        "completed": false
+    },
+    {
+        "userId": 4,
+        "id": 68,
+        "title": "aut id perspiciatis voluptatem iusto",
+        "completed": false
+    },
+    {
+        "userId": 4,
+        "id": 69,
+        "title": "doloribus sint dolorum ab adipisci itaque dignissimos aliquam suscipit",
+        "completed": false
+    },
+    {
+        "userId": 4,
+        "id": 70,
+        "title": "ut sequi accusantium et mollitia delectus sunt",
+        "completed": false
+    },
+    {
+        "userId": 4,
+        "id": 71,
+        "title": "aut velit saepe ullam",
+        "completed": false
+    },
+    {
+        "userId": 4,
+        "id": 72,
+        "title": "praesentium facilis facere quis harum voluptatibus voluptatem eum",
+        "completed": false
+    },
+    {
+        "userId": 4,
+        "id": 73,
+        "title": "sint amet quia totam corporis qui exercitationem commodi",
+        "completed": true
+    },
+    {
+        "userId": 4,
+        "id": 74,
+        "title": "expedita tempore nobis eveniet laborum maiores",
+        "completed": false
+    },
+    {
+        "userId": 4,
+        "id": 75,
+        "title": "occaecati adipisci est possimus totam",
+        "completed": false
+    },
+    {
+        "userId": 4,
+        "id": 76,
+        "title": "sequi dolorem sed",
+        "completed": true
+    },
+    {
+        "userId": 4,
+        "id": 77,
+        "title": "maiores aut nesciunt delectus exercitationem vel assumenda eligendi at",
+        "completed": false
+    },
+    {
+        "userId": 4,
+        "id": 78,
+        "title": "reiciendis est magnam amet nemo iste recusandae impedit quaerat",
+        "completed": false
+    },
+    {
+        "userId": 4,
+        "id": 79,
+        "title": "eum ipsa maxime ut",
+        "completed": true
+    },
+    {
+        "userId": 4,
+        "id": 80,
+        "title": "tempore molestias dolores rerum sequi voluptates ipsum consequatur",
+        "completed": true
+    },
+    {
+        "userId": 5,
+        "id": 81,
+        "title": "suscipit qui totam",
+        "completed": true
+    },
+    {
+        "userId": 5,
+        "id": 82,
+        "title": "voluptates eum voluptas et dicta",
+        "completed": false
+    },
+    {
+        "userId": 5,
+        "id": 83,
+        "title": "quidem at rerum quis ex aut sit quam",
+        "completed": true
+    },
+    {
+        "userId": 5,
+        "id": 84,
+        "title": "sunt veritatis ut voluptate",
+        "completed": false
+    },
+    {
+        "userId": 5,
+        "id": 85,
+        "title": "et quia ad iste a",
+        "completed": true
+    },
+    {
+        "userId": 5,
+        "id": 86,
+        "title": "incidunt ut saepe autem",
+        "completed": true
+    },
+    {
+        "userId": 5,
+        "id": 87,
+        "title": "laudantium quae eligendi consequatur quia et vero autem",
+        "completed": true
+    },
+    {
+        "userId": 5,
+        "id": 88,
+        "title": "vitae aut excepturi laboriosam sint aliquam et et accusantium",
+        "completed": false
+    },
+    {
+        "userId": 5,
+        "id": 89,
+        "title": "sequi ut omnis et",
+        "completed": true
+    },
+    {
+        "userId": 5,
+        "id": 90,
+        "title": "molestiae nisi accusantium tenetur dolorem et",
+        "completed": true
+    },
+    {
+        "userId": 5,
+        "id": 91,
+        "title": "nulla quis consequatur saepe qui id expedita",
+        "completed": true
+    },
+    {
+        "userId": 5,
+        "id": 92,
+        "title": "in omnis laboriosam",
+        "completed": true
+    },
+    {
+        "userId": 5,
+        "id": 93,
+        "title": "odio iure consequatur molestiae quibusdam necessitatibus quia sint",
+        "completed": true
+    },
+    {
+        "userId": 5,
+        "id": 94,
+        "title": "facilis modi saepe mollitia",
+        "completed": false
+    },
+    {
+        "userId": 5,
+        "id": 95,
+        "title": "vel nihil et molestiae iusto assumenda nemo quo ut",
+        "completed": true
+    },
+    {
+        "userId": 5,
+        "id": 96,
+        "title": "nobis suscipit ducimus enim asperiores voluptas",
+        "completed": false
+    },
+    {
+        "userId": 5,
+        "id": 97,
+        "title": "dolorum laboriosam eos qui iure aliquam",
+        "completed": false
+    },
+    {
+        "userId": 5,
+        "id": 98,
+        "title": "debitis accusantium ut quo facilis nihil quis sapiente necessitatibus",
+        "completed": true
+    },
+    {
+        "userId": 5,
+        "id": 99,
+        "title": "neque voluptates ratione",
+        "completed": false
+    },
+    {
+        "userId": 5,
+        "id": 100,
+        "title": "excepturi a et neque qui expedita vel voluptate",
+        "completed": false
+    },
+    {
+        "userId": 6,
+        "id": 101,
+        "title": "explicabo enim cumque porro aperiam occaecati minima",
+        "completed": false
+    },
+    {
+        "userId": 6,
+        "id": 102,
+        "title": "sed ab consequatur",
+        "completed": false
+    },
+    {
+        "userId": 6,
+        "id": 103,
+        "title": "non sunt delectus illo nulla tenetur enim omnis",
+        "completed": false
+    },
+    {
+        "userId": 6,
+        "id": 104,
+        "title": "excepturi non laudantium quo",
+        "completed": false
+    },
+    {
+        "userId": 6,
+        "id": 105,
+        "title": "totam quia dolorem et illum repellat voluptas optio",
+        "completed": true
+    },
+    {
+        "userId": 6,
+        "id": 106,
+        "title": "ad illo quis voluptatem temporibus",
+        "completed": true
+    },
+    {
+        "userId": 6,
+        "id": 107,
+        "title": "praesentium facilis omnis laudantium fugit ad iusto nihil nesciunt",
+        "completed": false
+    },
+    {
+        "userId": 6,
+        "id": 108,
+        "title": "a eos eaque nihil et exercitationem incidunt delectus",
+        "completed": true
+    },
+    {
+        "userId": 6,
+        "id": 109,
+        "title": "autem temporibus harum quisquam in culpa",
+        "completed": true
+    },
+    {
+        "userId": 6,
+        "id": 110,
+        "title": "aut aut ea corporis",
+        "completed": true
+    },
+    {
+        "userId": 6,
+        "id": 111,
+        "title": "magni accusantium labore et id quis provident",
+        "completed": false
+    },
+    {
+        "userId": 6,
+        "id": 112,
+        "title": "consectetur impedit quisquam qui deserunt non rerum consequuntur eius",
+        "completed": false
+    },
+    {
+        "userId": 6,
+        "id": 113,
+        "title": "quia atque aliquam sunt impedit voluptatum rerum assumenda nisi",
+        "completed": false
+    },
+    {
+        "userId": 6,
+        "id": 114,
+        "title": "cupiditate quos possimus corporis quisquam exercitationem beatae",
+        "completed": false
+    },
+    {
+        "userId": 6,
+        "id": 115,
+        "title": "sed et ea eum",
+        "completed": false
+    },
+    {
+        "userId": 6,
+        "id": 116,
+        "title": "ipsa dolores vel facilis ut",
+        "completed": true
+    },
+    {
+        "userId": 6,
+        "id": 117,
+        "title": "sequi quae est et qui qui eveniet asperiores",
+        "completed": false
+    },
+    {
+        "userId": 6,
+        "id": 118,
+        "title": "quia modi consequatur vero fugiat",
+        "completed": false
+    },
+    {
+        "userId": 6,
+        "id": 119,
+        "title": "corporis ducimus ea perspiciatis iste",
+        "completed": false
+    },
+    {
+        "userId": 6,
+        "id": 120,
+        "title": "dolorem laboriosam vel voluptas et aliquam quasi",
+        "completed": false
+    },
+    {
+        "userId": 7,
+        "id": 121,
+        "title": "inventore aut nihil minima laudantium hic qui omnis",
+        "completed": true
+    },
+    {
+        "userId": 7,
+        "id": 122,
+        "title": "provident aut nobis culpa",
+        "completed": true
+    },
+    {
+        "userId": 7,
+        "id": 123,
+        "title": "esse et quis iste est earum aut impedit",
+        "completed": false
+    },
+    {
+        "userId": 7,
+        "id": 124,
+        "title": "qui consectetur id",
+        "completed": false
+    },
+    {
+        "userId": 7,
+        "id": 125,
+        "title": "aut quasi autem iste tempore illum possimus",
+        "completed": false
+    },
+    {
+        "userId": 7,
+        "id": 126,
+        "title": "ut asperiores perspiciatis veniam ipsum rerum saepe",
+        "completed": true
+    },
+    {
+        "userId": 7,
+        "id": 127,
+        "title": "voluptatem libero consectetur rerum ut",
+        "completed": true
+    },
+    {
+        "userId": 7,
+        "id": 128,
+        "title": "eius omnis est qui voluptatem autem",
+        "completed": false
+    },
+    {
+        "userId": 7,
+        "id": 129,
+        "title": "rerum culpa quis harum",
+        "completed": false
+    },
+    {
+        "userId": 7,
+        "id": 130,
+        "title": "nulla aliquid eveniet harum laborum libero alias ut unde",
+        "completed": true
+    },
+    {
+        "userId": 7,
+        "id": 131,
+        "title": "qui ea incidunt quis",
+        "completed": false
+    },
+    {
+        "userId": 7,
+        "id": 132,
+        "title": "qui molestiae voluptatibus velit iure harum quisquam",
+        "completed": true
+    },
+    {
+        "userId": 7,
+        "id": 133,
+        "title": "et labore eos enim rerum consequatur sunt",
+        "completed": true
+    },
+    {
+        "userId": 7,
+        "id": 134,
+        "title": "molestiae doloribus et laborum quod ea",
+        "completed": false
+    },
+    {
+        "userId": 7,
+        "id": 135,
+        "title": "facere ipsa nam eum voluptates reiciendis vero qui",
+        "completed": false
+    },
+    {
+        "userId": 7,
+        "id": 136,
+        "title": "asperiores illo tempora fuga sed ut quasi adipisci",
+        "completed": false
+    },
+    {
+        "userId": 7,
+        "id": 137,
+        "title": "qui sit non",
+        "completed": false
+    },
+    {
+        "userId": 7,
+        "id": 138,
+        "title": "placeat minima consequatur rem qui ut",
+        "completed": true
+    },
+    {
+        "userId": 7,
+        "id": 139,
+        "title": "consequatur doloribus id possimus voluptas a voluptatem",
+        "completed": false
+    },
+    {
+        "userId": 7,
+        "id": 140,
+        "title": "aut consectetur in blanditiis deserunt quia sed laboriosam",
+        "completed": true
+    },
+    {
+        "userId": 8,
+        "id": 141,
+        "title": "explicabo consectetur debitis voluptates quas quae culpa rerum non",
+        "completed": true
+    },
+    {
+        "userId": 8,
+        "id": 142,
+        "title": "maiores accusantium architecto necessitatibus reiciendis ea aut",
+        "completed": true
+    },
+    {
+        "userId": 8,
+        "id": 143,
+        "title": "eum non recusandae cupiditate animi",
+        "completed": false
+    },
+    {
+        "userId": 8,
+        "id": 144,
+        "title": "ut eum exercitationem sint",
+        "completed": false
+    },
+    {
+        "userId": 8,
+        "id": 145,
+        "title": "beatae qui ullam incidunt voluptatem non nisi aliquam",
+        "completed": false
+    },
+    {
+        "userId": 8,
+        "id": 146,
+        "title": "molestiae suscipit ratione nihil odio libero impedit vero totam",
+        "completed": true
+    },
+    {
+        "userId": 8,
+        "id": 147,
+        "title": "eum itaque quod reprehenderit et facilis dolor autem ut",
+        "completed": true
+    },
+    {
+        "userId": 8,
+        "id": 148,
+        "title": "esse quas et quo quasi exercitationem",
+        "completed": false
+    },
+    {
+        "userId": 8,
+        "id": 149,
+        "title": "animi voluptas quod perferendis est",
+        "completed": false
+    },
+    {
+        "userId": 8,
+        "id": 150,
+        "title": "eos amet tempore laudantium fugit a",
+        "completed": false
+    },
+    {
+        "userId": 8,
+        "id": 151,
+        "title": "accusamus adipisci dicta qui quo ea explicabo sed vero",
+        "completed": true
+    },
+    {
+        "userId": 8,
+        "id": 152,
+        "title": "odit eligendi recusandae doloremque cumque non",
+        "completed": false
+    },
+    {
+        "userId": 8,
+        "id": 153,
+        "title": "ea aperiam consequatur qui repellat eos",
+        "completed": false
+    },
+    {
+        "userId": 8,
+        "id": 154,
+        "title": "rerum non ex sapiente",
+        "completed": true
+    },
+    {
+        "userId": 8,
+        "id": 155,
+        "title": "voluptatem nobis consequatur et assumenda magnam",
+        "completed": true
+    },
+    {
+        "userId": 8,
+        "id": 156,
+        "title": "nam quia quia nulla repellat assumenda quibusdam sit nobis",
+        "completed": true
+    },
+    {
+        "userId": 8,
+        "id": 157,
+        "title": "dolorem veniam quisquam deserunt repellendus",
+        "completed": true
+    },
+    {
+        "userId": 8,
+        "id": 158,
+        "title": "debitis vitae delectus et harum accusamus aut deleniti a",
+        "completed": true
+    },
+    {
+        "userId": 8,
+        "id": 159,
+        "title": "debitis adipisci quibusdam aliquam sed dolore ea praesentium nobis",
+        "completed": true
+    },
+    {
+        "userId": 8,
+        "id": 160,
+        "title": "et praesentium aliquam est",
+        "completed": false
+    },
+    {
+        "userId": 9,
+        "id": 161,
+        "title": "ex hic consequuntur earum omnis alias ut occaecati culpa",
+        "completed": true
+    },
+    {
+        "userId": 9,
+        "id": 162,
+        "title": "omnis laboriosam molestias animi sunt dolore",
+        "completed": true
+    },
+    {
+        "userId": 9,
+        "id": 163,
+        "title": "natus corrupti maxime laudantium et voluptatem laboriosam odit",
+        "completed": false
+    },
+    {
+        "userId": 9,
+        "id": 164,
+        "title": "reprehenderit quos aut aut consequatur est sed",
+        "completed": false
+    },
+    {
+        "userId": 9,
+        "id": 165,
+        "title": "fugiat perferendis sed aut quidem",
+        "completed": false
+    },
+    {
+        "userId": 9,
+        "id": 166,
+        "title": "quos quo possimus suscipit minima ut",
+        "completed": false
+    },
+    {
+        "userId": 9,
+        "id": 167,
+        "title": "et quis minus quo a asperiores molestiae",
+        "completed": false
+    },
+    {
+        "userId": 9,
+        "id": 168,
+        "title": "recusandae quia qui sunt libero",
+        "completed": false
+    },
+    {
+        "userId": 9,
+        "id": 169,
+        "title": "ea odio perferendis officiis",
+        "completed": true
+    },
+    {
+        "userId": 9,
+        "id": 170,
+        "title": "quisquam aliquam quia doloribus aut",
+        "completed": false
+    },
+    {
+        "userId": 9,
+        "id": 171,
+        "title": "fugiat aut voluptatibus corrupti deleniti velit iste odio",
+        "completed": true
+    },
+    {
+        "userId": 9,
+        "id": 172,
+        "title": "et provident amet rerum consectetur et voluptatum",
+        "completed": false
+    },
+    {
+        "userId": 9,
+        "id": 173,
+        "title": "harum ad aperiam quis",
+        "completed": false
+    },
+    {
+        "userId": 9,
+        "id": 174,
+        "title": "similique aut quo",
+        "completed": false
+    },
+    {
+        "userId": 9,
+        "id": 175,
+        "title": "laudantium eius officia perferendis provident perspiciatis asperiores",
+        "completed": true
+    },
+    {
+        "userId": 9,
+        "id": 176,
+        "title": "magni soluta corrupti ut maiores rem quidem",
+        "completed": false
+    },
+    {
+        "userId": 9,
+        "id": 177,
+        "title": "et placeat temporibus voluptas est tempora quos quibusdam",
+        "completed": false
+    },
+    {
+        "userId": 9,
+        "id": 178,
+        "title": "nesciunt itaque commodi tempore",
+        "completed": true
+    },
+    {
+        "userId": 9,
+        "id": 179,
+        "title": "omnis consequuntur cupiditate impedit itaque ipsam quo",
+        "completed": true
+    },
+    {
+        "userId": 9,
+        "id": 180,
+        "title": "debitis nisi et dolorem repellat et",
+        "completed": true
+    },
+    {
+        "userId": 10,
+        "id": 181,
+        "title": "ut cupiditate sequi aliquam fuga maiores",
+        "completed": false
+    },
+    {
+        "userId": 10,
+        "id": 182,
+        "title": "inventore saepe cumque et aut illum enim",
+        "completed": true
+    },
+    {
+        "userId": 10,
+        "id": 183,
+        "title": "omnis nulla eum aliquam distinctio",
+        "completed": true
+    },
+    {
+        "userId": 10,
+        "id": 184,
+        "title": "molestias modi perferendis perspiciatis",
+        "completed": false
+    },
+    {
+        "userId": 10,
+        "id": 185,
+        "title": "voluptates dignissimos sed doloribus animi quaerat aut",
+        "completed": false
+    },
+    {
+        "userId": 10,
+        "id": 186,
+        "title": "explicabo odio est et",
+        "completed": false
+    },
+    {
+        "userId": 10,
+        "id": 187,
+        "title": "consequuntur animi possimus",
+        "completed": false
+    },
+    {
+        "userId": 10,
+        "id": 188,
+        "title": "vel non beatae est",
+        "completed": true
+    },
+    {
+        "userId": 10,
+        "id": 189,
+        "title": "culpa eius et voluptatem et",
+        "completed": true
+    },
+    {
+        "userId": 10,
+        "id": 190,
+        "title": "accusamus sint iusto et voluptatem exercitationem",
+        "completed": true
+    },
+    {
+        "userId": 10,
+        "id": 191,
+        "title": "temporibus atque distinctio omnis eius impedit tempore molestias pariatur",
+        "completed": true
+    },
+    {
+        "userId": 10,
+        "id": 192,
+        "title": "ut quas possimus exercitationem sint voluptates",
+        "completed": false
+    },
+    {
+        "userId": 10,
+        "id": 193,
+        "title": "rerum debitis voluptatem qui eveniet tempora distinctio a",
+        "completed": true
+    },
+    {
+        "userId": 10,
+        "id": 194,
+        "title": "sed ut vero sit molestiae",
+        "completed": false
+    },
+    {
+        "userId": 10,
+        "id": 195,
+        "title": "rerum ex veniam mollitia voluptatibus pariatur",
+        "completed": true
+    },
+    {
+        "userId": 10,
+        "id": 196,
+        "title": "consequuntur aut ut fugit similique",
+        "completed": true
+    },
+    {
+        "userId": 10,
+        "id": 197,
+        "title": "dignissimos quo nobis earum saepe",
+        "completed": true
+    },
+    {
+        "userId": 10,
+        "id": 198,
+        "title": "quis eius est sint explicabo",
+        "completed": true
+    },
+    {
+        "userId": 10,
+        "id": 199,
+        "title": "numquam repellendus a magnam",
+        "completed": true
+    },
+    {
+        "userId": 10,
+        "id": 200,
+        "title": "ipsam aperiam voluptates qui",
+        "completed": false
+    }
+];
+
+
+/***/ }),
+
+/***/ 3995:
+/*!*********************************************************!*\
+  !*** ./src/app/components/product/product.component.ts ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ProductComponent": () => (/* binding */ ProductComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2560);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ 4666);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ 2508);
+
+
+
+function ProductComponent_strong_36_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "strong");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " product is available");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+function ProductComponent_ng_template_37_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "strong");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "product is not available");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+const _c0 = function () { return { backgroundColor: "green", color: "white" }; };
+const _c1 = function (a0, a1, a2, a3) { return { "text-white": a0, "text-dark": a1, "bg-primary": a2, "p-4": a3 }; };
+class ProductComponent {
+    constructor() {
+        // ngOnInit(): void {
+        //     setTimeout(() => {
+        //         this.productstatus=false;
+        //     },3000);
+        // }
+        this.productstatus = true;
+        this.productname = "Electronic Devices";
+        this.productId = 123;
+        this.productinfo = `<h4>Oppo Mobile</h4>`;
+        this.Cartstatusproduct = "product is added to the cart";
+        this.Noofproducts = 0;
+    }
+    ngOnInit() {
+        console.log("is product is in it");
+        this.isproductavailable = Math.random() >= 0.6 ? true : false;
+        console.log(this.isproductavailable);
+    }
+    updatecartstatus(event) {
+        this.Noofproducts++;
+        this.Cartstatusproduct = `${this.Noofproducts} added in the cart`;
+        // let val=(event.target as HTMLInputElement).value
+        console.log("clicked");
+    }
+    removeproduct(event) {
+        if (this.Noofproducts > 1) {
+            this.Noofproducts--;
+            this.Cartstatusproduct = `${this.Noofproducts} remove from the cart`;
+        }
+    }
+    Onproductsearch(event) {
+        let val = event.target.value;
+        this.onproductsearch = val;
+    }
+}
+ProductComponent.ɵfac = function ProductComponent_Factory(t) { return new (t || ProductComponent)(); };
+ProductComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProductComponent, selectors: [["app-product"]], decls: 39, vars: 20, consts: [[1, "container"], [1, "row"], [1, "col-md-6", "offset-md-3"], [1, "card"], [1, "card-header"], [1, "bg-dark", "py-2", "text-center", "text-white"], [1, "card-body"], ["for", "text"], ["type", "text", 1, "form-control", "my-2", 3, "ngModel", "ngModelChange"], [1, "btn-success", "w-40", "px-3", "border", "border-danger"], ["type", "text", 1, "form-control", 3, "keyup"], [1, "form-group"], [3, "innerHTML"], ["type", "text", 3, "value"], [1, "card-footer"], [1, "text-right"], [1, "btn", "btn-primary", 3, "disabled", "click"], [1, "btn", "btn-danger", "mx-2", 3, "disabled", "click"], [1, "alert", "alert-info", "my-2"], [1, "col-md-8", "offset-md-2"], [3, "ngStyle", "ngClass"], [4, "ngIf", "ngIfElse"], ["productnotavailable", ""]], template: function ProductComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3)(4, "div", 4)(5, "h3", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 6)(8, "label", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Product-search");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "input", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ProductComponent_Template_input_ngModelChange_10_listener($event) { return ctx.onproductsearchng = $event; });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "p", 9)(12, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "input", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("keyup", function ProductComponent_Template_input_keyup_14_listener($event) { return ctx.Onproductsearch($event); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "p", 9)(16, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "p", 12)(20, "input", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 14)(22, "div", 15)(23, "button", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ProductComponent_Template_button_click_23_listener($event) { return ctx.updatecartstatus($event); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "add");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "button", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ProductComponent_Template_button_click_25_listener($event) { return ctx.removeproduct($event); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "remove");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "p", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "div", 0)(30, "div", 1)(31, "div", 19)(32, "p", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "function is run ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](36, ProductComponent_strong_36_Template, 2, 0, "strong", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](37, ProductComponent_ng_template_37_Template, 2, 0, "ng-template", null, 22, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()();
+    } if (rf & 2) {
+        const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.productname);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.onproductsearchng);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.onproductsearchng);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", ctx.onproductsearch, " two way databinding");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("innerHTML", ctx.productinfo, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeHtml"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("value", ctx.productname);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("disabled", ctx.productstatus);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("disabled", ctx.Noofproducts <= 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.Cartstatusproduct);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](14, _c0))("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction4"](15, _c1, ctx.isproductavailable, !ctx.isproductavailable, !ctx.isproductavailable, ctx.isproductavailable));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.productId);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.isproductavailable)("ngIfElse", _r1);
+    } }, dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_1__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_1__.NgIf, _angular_common__WEBPACK_IMPORTED_MODULE_1__.NgStyle, _angular_forms__WEBPACK_IMPORTED_MODULE_2__.DefaultValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_2__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_2__.NgModel], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJwcm9kdWN0LmNvbXBvbmVudC5zY3NzIn0= */"] });
+
+
+/***/ }),
+
+/***/ 697:
+/*!***********************************************************!*\
+  !*** ./src/app/components/products/products.component.ts ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ProductsComponent": () => (/* binding */ ProductsComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2560);
+
+class ProductsComponent {
+}
+ProductsComponent.ɵfac = function ProductsComponent_Factory(t) { return new (t || ProductsComponent)(); };
+ProductsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProductsComponent, selectors: [["app-products"]], decls: 2, vars: 0, template: function ProductsComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "mainhead");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["p[_ngcontent-%COMP%] {\n  color: pink;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2R1Y3RzLmNvbXBvbmVudC50cyIsIi4uXFwuLlxcLi5cXC4uXFwuLlxcLi5cXC4uXFxwcm9qZWN0JTIwZmlsZVxcQW5ndWxhclxcbXlmaXJzdHByb2plY3RcXHNyY1xcYXBwXFxjb21wb25lbnRzXFxwcm9kdWN0c1xccHJvZHVjdHMuY29tcG9uZW50LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQUUsV0FBQTtBQ0VGIiwiZmlsZSI6InByb2R1Y3RzLmNvbXBvbmVudC50cyIsInNvdXJjZXNDb250ZW50IjpbInB7Y29sb3I6cGlua30iLCJwIHtcbiAgY29sb3I6IHBpbms7XG59Il19 */"] });
+
+
+/***/ }),
+
+/***/ 7194:
+/*!**************************************************!*\
+  !*** ./src/app/skillsets/skillsets.component.ts ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "SkillsetsComponent": () => (/* binding */ SkillsetsComponent)
+/* harmony export */ });
+/* harmony import */ var _components_const_const__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/const/const */ 2766);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 2560);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ 4666);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ 2508);
+
+
+
+
+const _c0 = function (a0, a1) { return { "text-success": a0, "text-danger": a1 }; };
+function SkillsetsComponent_tr_21_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "tr")(1, "td");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "td");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "td", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
+} if (rf & 2) {
+    const postss_r1 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", postss_r1.id, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", postss_r1.title, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](4, _c0, postss_r1.completed, !postss_r1.completed));
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("", postss_r1.completed ? "completed" : "incomplete", " ");
+} }
+class SkillsetsComponent {
+    constructor() {
+        this.todos = _components_const_const__WEBPACK_IMPORTED_MODULE_0__.todopost;
+    }
+    ngOnInit() {
+    }
+}
+SkillsetsComponent.ɵfac = function SkillsetsComponent_Factory(t) { return new (t || SkillsetsComponent)(); };
+SkillsetsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: SkillsetsComponent, selectors: [["app-skillsets"]], decls: 22, vars: 1, consts: [[1, "container"], [1, "row"], [1, "col-md-12"], ["id", "maintable", 1, "table", "table-bordered"], [1, "thead-dark"], ["name", "selectall", "id", "selectall"], ["name", "complete", "id", "complete"], ["name", "incomplete", "id", "incomplete"], ["name", "all", "id", "all"], [4, "ngFor", "ngForOf"], [3, "ngClass"]], template: function SkillsetsComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, "skillsets works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 0)(3, "div", 1)(4, "div", 2)(5, "table", 3)(6, "thead", 4)(7, "tr")(8, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9, " id ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11, "title");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "th")(13, "select", 5)(14, "option", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](15, "complete");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "option", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](17, "incomplete");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](18, "option", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](19, "all");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](20, "tbody");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](21, SkillsetsComponent_tr_21_Template, 7, 7, "tr", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.todos);
+    } }, dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_2__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_2__.NgForOf, _angular_forms__WEBPACK_IMPORTED_MODULE_3__.NgSelectOption, _angular_forms__WEBPACK_IMPORTED_MODULE_3__["ɵNgSelectMultipleOption"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJza2lsbHNldHMuY29tcG9uZW50LnNjc3MifQ== */"] });
+
+
+/***/ }),
+
+/***/ 3957:
+/*!****************************************!*\
+  !*** ./src/app/tabs/tabs.component.ts ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "TabsComponent": () => (/* binding */ TabsComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2560);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ 4666);
+
+
+function TabsComponent_div_25_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 8)(1, "div", 9)(2, "p")(3, "strong");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "javasript");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " JavaScript, often abbreviated as JS, is a programming language and core technology of the World Wide Web, alongside HTML and CSS. As of 2023, 98.7% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
+} }
+function TabsComponent_div_26_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 8)(1, "div", 9)(2, "p")(3, "strong");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "angular");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " Angular is a TypeScript-based, free and open-source single-page web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
+} }
+function TabsComponent_div_27_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 8)(1, "div", 9)(2, "p")(3, "strong");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "typescript");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " Angular is a TypeScript-based, free and open-source single-page web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
+} }
+function TabsComponent_div_28_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 8)(1, "div", 9)(2, "p")(3, "strong");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "node");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " Angular is a TypeScript-based, free and open-source single-page web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
+} }
+function TabsComponent_div_29_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 8)(1, "div", 9)(2, "p")(3, "strong");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "css");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " Angular is a TypeScript-based, free and open-source single-page web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
+} }
+function TabsComponent_div_30_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 8)(1, "div", 9)(2, "p")(3, "strong");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "scss");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " Angular is a TypeScript-based, free and open-source single-page web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
+} }
+const _c0 = function (a0) { return { active: a0 }; };
+class TabsComponent {
+    constructor() {
+        this.tabsitems = "javascript";
+    }
+    ngOnInit() {
+    }
+    selectskill(skill) {
+        this.tabsitems = skill;
+    }
+}
+TabsComponent.ɵfac = function TabsComponent_Factory(t) { return new (t || TabsComponent)(); };
+TabsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TabsComponent, selectors: [["app-tabs"]], decls: 31, vars: 24, consts: [[1, "container"], [1, "row"], [1, "col-md-8", "offset-md-2"], [1, "nav", "nav-pills", "text-capitalize"], [1, "nav-item", 3, "click"], ["href", "javascript:;", 1, "nav-link", 3, "ngClass"], [1, "tab-body"], ["class", "card", 4, "ngIf"], [1, "card"], [1, "card-body"]], template: function TabsComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "tabs works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 0)(3, "div", 1)(4, "div", 2)(5, "ul", 3)(6, "li", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function TabsComponent_Template_li_click_6_listener() { return ctx.selectskill("javascript"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "a", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "javascript");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "li", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function TabsComponent_Template_li_click_9_listener() { return ctx.selectskill("angular"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "a", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "angular");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "li", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function TabsComponent_Template_li_click_12_listener() { return ctx.selectskill("typescript"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "a", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "typescript");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "li", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function TabsComponent_Template_li_click_15_listener() { return ctx.selectskill("node"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "node");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "li", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function TabsComponent_Template_li_click_18_listener() { return ctx.selectskill("css"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "a", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "css");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "li", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function TabsComponent_Template_li_click_21_listener() { return ctx.selectskill("sass"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "a", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "scss");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](25, TabsComponent_div_25_Template, 6, 0, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](26, TabsComponent_div_26_Template, 6, 0, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](27, TabsComponent_div_27_Template, 6, 0, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](28, TabsComponent_div_28_Template, 6, 0, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](29, TabsComponent_div_29_Template, 6, 0, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](30, TabsComponent_div_30_Template, 6, 0, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](12, _c0, ctx.tabsitems.toLocaleLowerCase().includes("javascript")));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](14, _c0, ctx.tabsitems.toLocaleLowerCase().includes("angular")));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](16, _c0, ctx.tabsitems.toLocaleLowerCase().includes("typescript")));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](18, _c0, ctx.tabsitems.toLocaleLowerCase().includes("node")));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](20, _c0, ctx.tabsitems.toLocaleLowerCase().includes("css")));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](22, _c0, ctx.tabsitems.toLocaleLowerCase().includes("sass")));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.tabsitems.toLocaleLowerCase().includes("javascript"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.tabsitems.toLocaleLowerCase().includes("angular"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.tabsitems.toLocaleLowerCase().includes("typescript"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.tabsitems.toLocaleLowerCase().includes("node"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.tabsitems.toLocaleLowerCase().includes("css"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.tabsitems.toLocaleLowerCase().includes("sass"));
+    } }, dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_1__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_1__.NgIf], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ0YWJzLmNvbXBvbmVudC5zY3NzIn0= */"] });
+
+
+/***/ }),
+
+/***/ 2340:
+/*!*****************************************!*\
+  !*** ./src/environments/environment.ts ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "environment": () => (/* binding */ environment)
+/* harmony export */ });
+// This file can be replaced during build by using the `fileReplacements` array.
+// `ng build` replaces `environment.ts` with `environment.prod.ts`.
+// The list of file replacements can be found in `angular.json`.
+const environment = {
+    production: false
+};
+/*
+ * For easier debugging in development mode, you can import the following file
+ * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
+ *
+ * This import should be commented out in production mode because it will have a negative impact
+ * on performance if an error is thrown.
+ */
+// import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
+
+
+/***/ }),
+
+/***/ 4431:
+/*!*********************!*\
+  !*** ./src/main.ts ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser */ 4497);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 2560);
+/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app/app.module */ 6747);
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./environments/environment */ 2340);
+
+
+
+
+if (_environments_environment__WEBPACK_IMPORTED_MODULE_1__.environment.production) {
+    (0,_angular_core__WEBPACK_IMPORTED_MODULE_2__.enableProdMode)();
+}
+_angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__.platformBrowser().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_0__.AppModule)
+    .catch(err => console.error(err));
+
+
+/***/ })
+
+},
+/******/ __webpack_require__ => { // webpackRuntimeModules
+/******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+/******/ __webpack_require__.O(0, ["vendor"], () => (__webpack_exec__(1211), __webpack_exec__(4431)));
+/******/ var __webpack_exports__ = __webpack_require__.O();
+/******/ }
+]);
+//# sourceMappingURL=main.js.map
